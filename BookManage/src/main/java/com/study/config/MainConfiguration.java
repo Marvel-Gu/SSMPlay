@@ -16,7 +16,7 @@ public class MainConfiguration {
     @Bean
     public DataSource dataSource(){
         return new PooledDataSource("com.mysql.cj.jdbc.Driver",
-                "jdbc:mysql://localhost/study", "root", "yuzhe_780206");
+                "jdbc:mysql://localhost/study", "root", "xxxxxxxxx");
     }
 
     @Bean
